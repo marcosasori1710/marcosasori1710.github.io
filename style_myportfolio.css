@@ -1,0 +1,83 @@
+body {
+	background-image: radial-gradient(circle at -6.83% 54.97%, #95bd76 0, #89c07e 3.85%, #7dc186 7.69%, #70c38f 11.54%, #62c499 15.38%, #53c5a3 19.23%, #43c5ad 23.08%, #30c6b8 26.92%, #18c6c2 30.77%, #00c5cc 34.62%, #00c5d5 38.46%, #00c4de 42.31%, #00c3e6 46.15%, #0cc1ed 50%, #2ebff3 53.85%, #46bdf7 57.69%, #5bbafa 61.54%, #6eb7fc 65.38%, #80b4fc 69.23%, #91b1fb 73.08%, #a1adf9 76.92%, #b0a9f5 80.77%, #bea6ef 84.62%, #cba2e9 88.46%, #d69ee1 92.31%, #e09bd9 96.15%, #e898d0 100%);
+	min-height: 2250px;
+}
+
+.img_header {
+	border-radius: 50%;
+	border: 7px solid black;
+	margin-top: 15px;
+}
+
+.heading_header {
+	font-family: 'Lobster', cursive;
+	margin-top: 15px;
+}
+
+.about_me {
+	margin-top: 70px;
+}
+
+.about_me h2 {
+	font-family: 'Lobster', cursive;
+}
+
+.about_me p {
+	font-family: 'Lobster', cursive;
+	padding: 20px;
+}
+
+.projects {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+	margin-top: 30px;
+}
+
+.projects .card {
+	padding: 20px;
+}
+
+.contact {
+	margin-top: 60px;
+}
+
+.contact .contact_form {
+	margin-top: 60px;
+}
+
+.footer {
+	margin-top: 40px;
+	margin-left: 9%;
+}
+
+.footer a {
+	text-decoration: none;
+	color: black;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+/* Style untuk bagian keyboard Tilt JS */
+.keyboard-box {
+	background-color: pink;
+	border-radius: 10px;
+	height: 500px;
+}
+
+@media screen and (max-width: 1072px) {
+	.projects {
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+}
+
+@media screen and (max-width: 690px) {
+	.projects {
+		display: grid;
+		grid-template-columns: auto;
+	}
+}
